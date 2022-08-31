@@ -1,3 +1,7 @@
+### String and array algos
+
+- I am not an algorithms pro and don't pretend to be one. While I tried to have basic time and space complexity considerations in mind while writing the code, my main goal was to make the solution work, not performance-wise perfect. I'd love to become better at writing performance-optimized code but currently do not have enough knowledge to expand on performance questions such as the ones in the specs about how a different solution might be preferred if larger amounts of data were provided as inputs to the algorithms.
+
 ### Credit card component
 
 - Material UI was included for styling of the component to reduce development time spent on UI and to ensure ease of use as per task specs
