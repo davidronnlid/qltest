@@ -17,4 +17,3 @@
   - Neha Jain's SO answer was used for number maxLength validation : https://stackoverflow.com/questions/18510845/maxlength-ignored-for-input-type-number-in-chrome
   - RegEx could be used for more specific client-side name format validation, bus was not implemented here due to time constraints
 - Tests were implemented with Cypress and written in TypeScript just like the CreditCard component. I am aware that these tests are not extensively testing all the client-side form input value format validation constraints, or even all elements of the credit card component but decided that this was an appropriate level of detail of testing considering the time constraints of the project.
--
