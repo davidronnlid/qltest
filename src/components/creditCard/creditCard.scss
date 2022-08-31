@@ -1,0 +1,17 @@
+.creditCardContainer {
+  border: 1px solid red;
+  width: 50%;
+  margin: 0 auto;
+
+  & .creditCardElement {
+    display: block;
+    margin: 2rem;
+  }
+
+  & .cCNumber::-webkit-outer-spin-button,
+  .cCNumber::-webkit-inner-spin-button,
+  .cCNumber::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+  }
+}
