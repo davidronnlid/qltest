@@ -1,6 +1,6 @@
 ### String and array algos
 
-- I am not an algorithms pro and don't pretend to be one. While I tried to have basic time and space complexity considerations in mind while writing the code, my main goal was to make the solution work, not performance-wise perfect. I'd love to become better at writing performance-optimized code but currently do not have enough knowledge to expand on performance questions such as the ones in the specs about how a different solution might be preferred if larger amounts of data were provided as inputs to the algorithms.
+- I am not an algorithms pro and don't pretend to be one. While I tried to have basic time and space complexity considerations in mind while writing the code, my main goal was to make the algos solve the problems specified. I'd love to become better at writing performance-optimized code but currently do not have enough knowledge or experience to expand on the performance questions in the specs regarding how different solutions might be preferred if larger amounts of data were provided as inputs to the algorithms.
 
 ### Credit card component
 
