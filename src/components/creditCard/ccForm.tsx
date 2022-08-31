@@ -54,34 +54,38 @@ const CreditCardForm = () => {
   const validateInputsFurther = (event: SyntheticEvent) => {
     if (cCNumber.length !== 16) {
       alert("Credit card number has to contain 16 characters.");
+    } else if (cCCVV.length !== 3) {
+      alert("Credit card CVV has to contain 3 characters.");
+    } else if (!cCHolder) {
+      alert("Please enter credit card holder name.");
     } else {
-      alert("Credit card information is of valid format.");
+      alert(cCHolder + "e" + "Credit card information is of valid format.");
     }
   };
 
   return (
     <form>
       <label className="creditCardElement">
-        Credit card number:
+        Credit card number (required):
         <input
           type="number"
           name="Credit card number"
           onChange={handleCCNumberChange}
           value={cCNumber}
           className="creditCardElement cCNumber"
-          required={true}
+          required
           maxLength={16}
         />
       </label>
       <label className="creditCardElement">
-        Card holder name:
+        Card holder name (required):
         <input
           type="text"
           name="Card holder name"
           onChange={handleCCHolderChange}
           value={cCHolder}
           className="creditCardElement cCHolder"
-          required={true}
+          required
           minLength={3}
           // In case first name is one letter, and surname is one letter (" " will be length = 1)
           maxLength={60}
@@ -90,7 +94,7 @@ const CreditCardForm = () => {
       </label>
       <CCDatePicker />
       <label className="creditCardElement cCCVV">
-        CVV:
+        CVV (required):
         <input
           type="number"
           name="CVV"
@@ -98,7 +102,7 @@ const CreditCardForm = () => {
           value={cCCVV}
           maxLength={3}
           className="creditCardElement"
-          required={true}
+          required
         />
       </label>
       <Button

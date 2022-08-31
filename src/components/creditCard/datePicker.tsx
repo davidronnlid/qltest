@@ -12,7 +12,7 @@ export default function CCDatePicker() {
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <DatePicker
         views={["year", "month"]}
-        label="Expiration Date"
+        label="Expiration Date (required)"
         minDate={dayjs("2022-09")}
         maxDate={dayjs("2029-11")}
         value={value}
