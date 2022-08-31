@@ -7,7 +7,7 @@
 
 # Credit card component
 
-### QLTest spec says: "Focus should be on validation and ease of use." (So styling and testing were not prioritized. One might argue well-styled UI improves ease of use (UX). So I made sure to style what was necessary for good UX but not more than that.)
+### QLTest spec says: "Focus should be on validation and ease of use." So styling and testing were not prioritized. One might argue well-styled UI improves ease of use (UX). So I made sure to style what was necessary for good UX but not more than that.
 
 - Material UI was included for styling of the component to reduce development time spent on UI and to ensure ease of use as per task specs
 - CRA (create-react-app) comes with default webpack module bundling which I decided not to configure manually specifically for performance optimization due to time constraints and because it wasn't stated as a requirment in the specs
