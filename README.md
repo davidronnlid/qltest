@@ -1,5 +1,7 @@
 ### String and array algos
 
+** https://codesandbox.io/s/qltest-algos-u6k6g1?file=/index.js:0-2057 **
+
 - I am not an algorithms pro and don't pretend to be one. While I tried to have basic time and space complexity considerations in mind while writing the code, my main goal with the algos was to solve the problems in the QLTest specs. I'd love to become better at writing performance-optimized code but currently do not have the knowledge or experience required to expand on the performance questions in the specs regarding how different solutions might be preferred if larger amounts of data were provided as inputs to the algorithms.
 - The reason I mostly used for loops and if statements instead of array methods (forEach, map, reduce, filter, etc.) was because I thought through the problems while coding to save time and for me it is easier to get an overview of the problem when every part of the algorithm is explicitly stated as in the code I wrote. I don't think it would be hard for me to refactor the code I wrote to array methods if I were to spend more time improving the code.
 
