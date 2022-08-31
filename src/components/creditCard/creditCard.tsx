@@ -5,7 +5,7 @@ import "./creditCard.scss";
 const CreditCard = () => {
   return (
     <Card className="creditCardContainer">
-      <h2 style={{ margin: "3rem" }}>
+      <h2 style={{ marginBottom: "2rem" }}>
         Please enter your credit card information:
       </h2>
       <CreditCardForm />

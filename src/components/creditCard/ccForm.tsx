@@ -7,6 +7,7 @@ const CreditCardForm = () => {
   const [cCHolder, setCCHolder] = useState("");
   const [cCCVV, setCCCVV] = useState("");
 
+  // Below is an attempt at abstracting reused logic (to DRY), but didn't quite get it to work properly
   // const handleInputChange = (event: SyntheticEvent) => {
   //   const targetInput = event.target as HTMLInputElement;
   //   if (targetInput.name === "Credit card number") {
@@ -79,7 +80,7 @@ const CreditCardForm = () => {
           name="Card holder name"
           onChange={handleCCHolderChange}
           value={cCHolder}
-          className="creditCardElement"
+          className="creditCardElement cCHolder"
           required={true}
           minLength={3}
           // In case first name is one letter, and surname is one letter (" " will be length = 1)
@@ -88,7 +89,7 @@ const CreditCardForm = () => {
         />
       </label>
       <CCDatePicker />
-      <label className="creditCardElement">
+      <label className="creditCardElement cCCVV">
         CVV:
         <input
           type="number"
@@ -102,7 +103,7 @@ const CreditCardForm = () => {
       </label>
       <Button
         variant="outlined"
-        className="creditCardElement"
+        className="creditCardElement cCSubmit"
         onClick={validateInputsFurther}
       >
         Submit

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
+    "baseUrl": "https://localhost:3000"
+  },
+  "include": ["**/*.ts"]
+}
