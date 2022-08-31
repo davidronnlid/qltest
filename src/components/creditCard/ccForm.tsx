@@ -59,7 +59,7 @@ const CreditCardForm = () => {
     } else if (!cCHolder) {
       alert("Please enter credit card holder name.");
     } else {
-      alert(cCHolder + "e" + "Credit card information is of valid format.");
+      alert("Credit card information is of valid format.");
     }
   };
 
